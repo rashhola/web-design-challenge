@@ -1,0 +1,69 @@
+/* Style the header */
+.header {
+  background-color:#87CEEB;
+  text-align: center;
+  padding: 80px;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  height:60px;
+}
+.full-weight{
+  width: 100%;
+  height: 100%;
+}
+
+img.align-left{
+    float:left;
+    margin-right:20px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+
+}
+
+
+
+#output {
+  border: solid 2px black;
+  height: 100%;
+  text-align: center;
+  margin-right:1px;
+  margin-top: 1px;
+  position: relative;
+  margin-bottom: 1px;
+
+}  
+
+
+.adjust-summary {
+  /* Box-model */
+  padding: 30px;
+
+  /* Positioning */
+  margin-top: 32px;
+
+  /* Visual */
+  background-color: #fff;
+}
+
+.adjust-content >p {
+  /* Box-model */
+  padding-top: 20px;
+
+  /* Typography */
+  font-size: 16px;
+  line-height: 30px;
+  color: slategray;
+}
+
+#adjust-image {
+  /* Positioning */
+  float: left;
+
+  /* Box-model */
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
